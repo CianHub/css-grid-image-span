@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #333;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+}
+
+.grid > div {
+  height: 210px;
+  background: url('./img/spirit-away.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg-1 {
+}
+
+.bg-2 {
+}
